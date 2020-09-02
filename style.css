@@ -1,0 +1,40 @@
+.portfolio {
+  background-image: url(img/portfolio-img.jpg);
+  background-color: #333333;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 60px 150px 40px 150px;
+}
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.portfolio-top {
+}
+.portfolio-logo {
+}
+.portfolio-menu {
+}
+.portfolio-link {
+}
+.unique {
+}
+.unique-button {
+}
+.unique-content {
+}
+.unique-title-h1 {
+}
+.unique-title2 {
+}
+.unique-text {
+}
+.unique-linkdiv {
+}
+.unique-link {
+}
+.unique-pagination {
+}
+.pagination-button {
+}
