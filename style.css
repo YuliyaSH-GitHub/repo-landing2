@@ -1,3 +1,40 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("fonts/Raleway/Raleway-regular.woff2") format("woff2"),
+    url("fonts/Raleway/Raleway-regular.woff") format("woff"),
+    url("fonts/Raleway/Raleway-regular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway-ExtraBold";
+  src: url("fonts/Raleway/Raleway-ExtraBold.woff2") format("woff2"),
+    url("fonts/Raleway/Raleway-ExtraBold.woff") format("woff"),
+    url("fonts/Raleway/Raleway-ExtraBold.ttf") format("ttf");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("fonts/Raleway/Raleway-SemiBold.woff2") format("woff2"),
+    url("fonts/Raleway/Raleway-SemiBold.woff") format("woff"),
+    url("fonts/Raleway/Raleway-SemiBold.ttf") format("ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat/Montserrat-Regular.woff2") format("woff2"),
+    url("fonts/Montserrat/Montserrat-Regular.woff") format("woff"),
+    url("fonts/Montserrat/Montserrat-Regular.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .portfolio {
   background-image: url(img/portfolio-img.jpg);
   background-color: #333333;
@@ -13,22 +50,77 @@
 .portfolio-top {
 }
 .portfolio-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-link {
+  text-decoration: none;
+}
+.logotype {
+  width: 180px;
+  height: 80px;
 }
 .portfolio-menu {
 }
 .portfolio-link {
+  color: #ffffff;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  margin-right: 30px;
+  text-decoration: none;
+}
+.portfolio-link-left {
+  margin-right: 30px;
+}
+.portfolio-link-right {
+  margin-left: 20px;
+  margin-right: 10px;
 }
 .unique {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.unique_slider {
 }
 .unique-button {
+  /* background-color: transparent; */
 }
+.unique-button-left {
+  width: 40px;
+  height: 73px;
+  opacity: 0.5;
+  fill: #98999b;
+  /* background: transparent; */
+}
+/* .fa-chevron-left {
+  width: 40px;
+  height: 73px;
+  opacity: 0.5;
+} */
 .unique-content {
+  text-align: center;
 }
 .unique-title-h1 {
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 20px;
 }
-.unique-title2 {
+.unique-title-part2 {
+  font-family: Raleway-ExtraBold, Arial, Helvetica, sans-serif;
+  font-size: 52px;
+  font-weight: 800;
 }
 .unique-text {
+  color: #ffffff;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
 }
 .unique-linkdiv {
 }
@@ -37,4 +129,121 @@
 .unique-pagination {
 }
 .pagination-button {
+}
+.template {
+}
+.partition-web {
+  display: flex;
+  align-items: center;
+}
+.partition-box {
+  margin: 34px;
+  text-align: center;
+}
+.web_app {
+}
+.partition-title {
+  color: #555555;
+  font-family: Raleway, Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-top: 160px;
+}
+.partition-text {
+  color: #8c8c8c;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  padding-bottom: 113px;
+}
+.development {
+}
+.customization {
+}
+.marketing {
+}
+.realization {
+  background-color: #fbfaf8;
+}
+.realization-div {
+}
+.realization-title {
+}
+.realization-text {
+}
+.realization-image {
+}
+.multipurpose {
+}
+.multipurpose-div {
+}
+.multipurpose-title {
+}
+.multipurpose-text {
+}
+.multipurpose-divlink {
+}
+.multipurpose-link {
+}
+.our {
+}
+.our-paragraph {
+}
+.our-title {
+}
+.our-text {
+}
+.our-filter {
+}
+.our-button {
+}
+.our-figure {
+}
+.figure-projects {
+}
+.our-figcaption {
+}
+.our-figcaption-title {
+}
+.our-figcaption-text {
+}
+.our-divlink {
+}
+.our-link {
+}
+.presentation {
+}
+.presentation-div {
+}
+.presentation-title {
+}
+.presentation-text {
+}
+.devices {
+}
+.devices-imgdiv {
+}
+.devices-img {
+}
+.devices-content {
+}
+.devices-title {
+}
+.devices-text {
+}
+.devices-list {
+}
+.devices-item {
+}
+
+.statistics {
+  background: linear-gradient(to left, #4e3427, #211b19);
+}
+.statistics-div {
+}
+.statistics-title {
+}
+.statistics-text {
 }
