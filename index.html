@@ -5,30 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>landing</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="normalize.css" />
   </head>
   <body>
     <header class="portfolio">
       <div class="container portfolio-top">
-        <div class="portfolio-logo"></div>
-        <nav class="portfolio-menu">
-          <a class="portfolio-link" href="#">Home</a>
-          <a class="portfolio-link" href="#">About Us</a>
-          <a class="portfolio-link" href="#">Portfolio</a>
-          <a class="portfolio-link" href="#">Features</a>
-          <a class="portfolio-link" href="#">Blog</a>
-          <a class="portfolio-link" href="#">Pricing</a>
-          <a class="portfolio-link" href="#">Shortcodes</a>
-          <a class="portfolio-link" href="#">Contact</a>
-          <a class="portfolio-link" href="#">ссылка</a>
-          <a class="portfolio-link" href="#">ссылка</a>
-        </nav>
+        <div class="portfolio-logo">
+          <div class="portfolio-link">
+            <a class="logo-link" href="#"
+              ><img class="logotype" src="img/waxom_logo.svg" alt="logotype"
+            /></a>
+          </div>
+          <nav class="portfolio-menu">
+            <a class="portfolio-link-left portfolio-link" href="#">Home</a>
+            <a class="portfolio-link-left portfolio-link" href="#">About Us</a>
+            <a class="portfolio-link-left portfolio-link" href="#">Portfolio</a>
+            <a class="portfolio-link-left portfolio-link" href="#">Features</a>
+            <a class="portfolio-link-left portfolio-link" href="#">Blog</a>
+            <a class="portfolio-link-left portfolio-link" href="#">Pricing</a>
+            <a class="portfolio-link-left portfolio-link" href="#"
+              >Shortcodes</a
+            >
+            <a class="portfolio-link-left portfolio-link" href="#">Contact</a>
+            <a class="portfolio-link-right portfolio-link" href="#"
+              ><span class="far fa-calendar"></span
+            ></a>
+            <a class="portfolio-link-right portfolio-link" href="#"
+              ><span class="fas fa-search"></span
+            ></a>
+          </nav>
+        </div>
         <div class="unique">
-          <form class="unique_slider" action="#">
-            <button class="unique-button"></button>
-          </form>
+          <div class="unique_slider">
+            <button class="unique-button">
+              <svg
+                class="unique-button-left"
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="73"
+                viewBox="0 0 40 73"
+              >
+                <g>
+                  <g opacity="0.5">
+                    <path
+                      d="M38.026 72.98L.005 36.497 38.026.018l1.969 2.004L4.066 36.498l35.929 34.479z"
+                    />
+                    <path
+                      d="M38.026 72.98L.005 36.497 38.026.018l1.969 2.004L4.066 36.498l35.929 34.479z"
+                    />
+                  </g>
+                </g>
+              </svg>
+              <!-- <span class="fas fa-chevron-left"></span> -->
+            </button>
+          </div>
           <div class="unique-content">
             <h1 class="unique-title-h1">
-              Unique and Modern Design
+              Unique and Modern Design<br />
               <span class="unique-title-part2">Portfolio PSD Template</span>
             </h1>
             <p class="unique-text">
@@ -55,29 +89,29 @@
       </div>
     </header>
     <main class="template">
-      <section class="partition-web">
-        <div class="web_app">
+      <section class="partition-web container">
+        <div class="web_app partition-box">
           <h3 class="partition-title">Web & App Design</h3>
           <p class="partition-text">
             Nam liber tempor cum soluta nobis eleifend option congue nihil
             imperdiet doming id quod mazim.
           </p>
         </div>
-        <div class="development">
+        <div class="development partition-box">
           <h3 class="partition-title">Development</h3>
           <p class="partition-text">
             Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy nibh
             euismod tincidunt ut laoreet.
           </p>
         </div>
-        <div class="customization">
+        <div class="customization partition-box">
           <h3 class="partition-title">Customization</h3>
           <p class="partition-text">
             Nam liber tempor cum soluta nobis eleifend option congue nihil
             imperdiet doming id quod mazim.
           </p>
         </div>
-        <div class="marketing">
+        <div class="marketing partition-box">
           <h3 class="partition-title">Marketing</h3>
           <p class="partition-text">
             Nam liber tempor cum soluta nobis eleifend option congue nihil
@@ -89,18 +123,22 @@
         <div class="marketing"></div>
       </section>
       <section class="realization">
-        <div class="realization-div">
-          <h2 class="realization-title">Waxom is Realization of your Ideas.</h2>
-          <p class="realization-text">
-            Investigationes demonstraverunt lectores legere me lius quod ii
-            legunt saepius. Claritas est etiam processus dynamicus, qui sequitur
-            mutationem consuetudium.
-          </p>
-        </div>
-        <div class="realization-image">
-          <img src="#" alt="image" />
-          <img src="#" alt="image" />
-          <img src="#" alt="image" />
+        <div class="container">
+          <div class="realization-div">
+            <h2 class="realization-title">
+              Waxom is Realization of your Ideas.
+            </h2>
+            <p class="realization-text">
+              Investigationes demonstraverunt lectores legere me lius quod ii
+              legunt saepius. Claritas est etiam processus dynamicus, qui
+              sequitur mutationem consuetudium.
+            </p>
+          </div>
+          <div class="realization-image">
+            <img src="img/browser-left.jpg" alt="image" />
+            <img src="img/browser-center.jpg" alt="image" />
+            <img src="img/browser-right.jpg" alt="image" />
+          </div>
         </div>
       </section>
       <section class="multipurpose">
@@ -219,25 +257,27 @@
         </div>
       </section>
       <section class="statistics">
-        <div class="statistics-div">
-          <h4 class="statistics-title">3587</h4>
-          <p class="statistics-text">Satisfied Clients</p>
-        </div>
-        <div class="statistics-div">
-          <h4 class="statistics-title">207</h4>
-          <p class="statistics-text">Cups of coffee</p>
-        </div>
-        <div class="statistics-div">
-          <h4 class="statistics-title">2500</h4>
-          <p class="statistics-text">Blog posts</p>
-        </div>
-        <div class="statistics-div">
-          <h4 class="statistics-title">873</h4>
-          <p class="statistics-text">Likes</p>
-        </div>
-        <div class="statistics-div">
-          <h4 class="statistics-title">900</h4>
-          <p class="statistics-text">We launched</p>
+        <div class="container">
+          <div class="statistics-div">
+            <h4 class="statistics-title">3587</h4>
+            <p class="statistics-text">Satisfied Clients</p>
+          </div>
+          <div class="statistics-div">
+            <h4 class="statistics-title">207</h4>
+            <p class="statistics-text">Cups of coffee</p>
+          </div>
+          <div class="statistics-div">
+            <h4 class="statistics-title">2500</h4>
+            <p class="statistics-text">Blog posts</p>
+          </div>
+          <div class="statistics-div">
+            <h4 class="statistics-title">873</h4>
+            <p class="statistics-text">Likes</p>
+          </div>
+          <div class="statistics-div">
+            <h4 class="statistics-title">900</h4>
+            <p class="statistics-text">We launched</p>
+          </div>
         </div>
       </section>
       <section class="posts">
