@@ -71,12 +71,21 @@
   margin-right: 30px;
   text-decoration: none;
 }
+.portfolio-link:hover {
+  color: #c7b299;
+}
 .portfolio-link-left {
   margin-right: 30px;
 }
 .portfolio-link-right {
   margin-left: 20px;
   margin-right: 10px;
+}
+.link-calendar-search {
+  fill: #fff;
+}
+.link-calendar-search:hover {
+  fill: #c7b299;
 }
 .unique {
   display: flex;
@@ -123,6 +132,10 @@
 }
 .unique-linkdiv {
   margin-top: 52px;
+}
+.unique-linkdiv:hover .unique-link {
+  background-color: #736357;
+  transition-duration: 0.3s;
 }
 .unique-link {
   color: #ffffff;
