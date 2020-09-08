@@ -409,6 +409,10 @@
   padding-bottom: 80px;
   text-align: center;
 }
+.our-divlink:hover .our-link {
+  background-color: #736357;
+  transition-duration: 0.3s;
+}
 .our-link {
   color: #ffffff;
   font-family: Raleway-ExtraBold, Arial, Helvetica, sans-serif;
@@ -431,28 +435,95 @@
 .presentation-text {
 }
 .devices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
 }
 .devices-imgdiv {
+  margin-right: 30px;
 }
 .devices-img {
 }
 .devices-content {
+  width: 657px;
+  text-align: left;
 }
 .devices-title {
+  color: #555555;
+  font-family: Raleway-SemiBold, Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 40px;
 }
 .devices-text {
+  color: #8c8c8c;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  margin-bottom: 45px;
 }
 .devices-list {
+  list-style-type: none;
 }
 .devices-item {
+  color: #8c8c8c;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 32px;
+  position: relative;
+  padding-left: 100px;
+}
+.devices-item:before {
+  content: "";
+  background-image: url(img/mobile-item.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  display: block;
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  left: 50px;
+  top: 5px;
 }
 
 .statistics {
   background: linear-gradient(to left, #4e3427, #211b19);
 }
+.statistics-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .statistics-div {
+  padding: 60px 50px;
+  text-align: center;
 }
 .statistics-title {
+  color: #ffffff;
+  font-family: "Montserrat - Ultra Light";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 36px;
+  margin-top: 30px;
 }
 .statistics-text {
+  color: #c7b299;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin-top: 21px;
+}
+.statistics-div::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: #ffffff;
+  margin: 30px auto 0;
 }
