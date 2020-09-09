@@ -30,6 +30,14 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "Montserrat-ExtraLight";
+  src: url("fonts/Montserrat/Montserrat-ExtraLight.woff2") format("woff2"),
+    url("fonts/Montserrat/Montserrat-ExtraLight.woff") format("woff"),
+    url("fonts/Montserrat/Montserrat-ExtraLight.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+}
 * {
   margin: 0;
   padding: 0;
@@ -162,8 +170,34 @@
   background-color: #998675;
 }
 .unique-pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 330px;
 }
 .pagination-button {
+  display: block;
+  background-color: #8c8c8c;
+  opacity: 0.5;
+  width: 11px;
+  min-height: 11px;
+  border: 1px solid #8c8c8c;
+  border-radius: 50%;
+  margin: 5px;
+}
+.pagination-button-active {
+  display: block;
+  background-color: transparent;
+  opacity: 0.5;
+  width: 15px;
+  min-height: 15px;
+  border-radius: 50%;
+  margin: 5px;
+  border: 3px solid #c7b299;
+}
+.pagination-button:hover {
+  background-color: #555555;
 }
 .template {
 }
@@ -373,6 +407,9 @@
 .figure-projects {
   margin: 30px 15px;
 }
+.our-image {
+  margin-bottom: -3px;
+}
 .our-figcaption {
   text-align: left;
   background-color: #fbfaf8;
@@ -504,7 +541,7 @@
 }
 .statistics-title {
   color: #ffffff;
-  font-family: "Montserrat - Ultra Light";
+  font-family: "Montserrat-ExtraLight", Arial, Helvetica, sans-serif;
   font-size: 48px;
   font-weight: 400;
   line-height: 36px;
