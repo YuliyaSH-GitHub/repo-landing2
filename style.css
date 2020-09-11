@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Raleway";
+  font-family: "Raleway-regular";
   src: url("fonts/Raleway/Raleway-regular.woff2") format("woff2"),
     url("fonts/Raleway/Raleway-regular.woff") format("woff"),
     url("fonts/Raleway/Raleway-regular.ttf") format("ttf");
@@ -119,20 +119,13 @@
   border-bottom-color: #736357;
   transition-duration: 0.3s;
 }
-/* .unique-button-left {
-  width: 40px;
-  height: 73px;
-  opacity: 0.5; 
-  fill: #d3c1ad;
-} */
-
 .unique-content {
   text-align: center;
   width: 590px;
 }
 .unique-title-h1 {
   color: #ffffff;
-  font-family: Raleway;
+  font-family: Raleway-regular, Arial, Helvetica, sans-serif;
   font-size: 36px;
   font-weight: 500;
   margin-bottom: 20px;
@@ -232,7 +225,7 @@
 }
 .partition-title {
   color: #555555;
-  font-family: Raleway, Arial, Helvetica, sans-serif;
+  font-family: Raleway-regular, Arial, Helvetica, sans-serif;
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 20px;
@@ -262,7 +255,7 @@
 }
 .realization-title {
   color: #555555;
-  font-family: "Raleway-SemiBold";
+  font-family: Raleway-SemiBold, Arial, Helvetica, sans-serif;
   font-size: 30px;
   font-weight: 400;
   text-align: center;
@@ -481,6 +474,7 @@
   margin-right: 30px;
 }
 .devices-img {
+  margin-bottom: -4px;
 }
 .devices-content {
   width: 657px;
@@ -563,4 +557,152 @@
   height: 2px;
   background-color: #ffffff;
   margin: 30px auto 0;
+}
+.posts {
+}
+.posts-title {
+  color: #555555;
+  font-family: Raleway-SemiBold, Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  padding-top: 80px;
+  text-align: center;
+}
+.posts-text {
+  color: #8c8c8c;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  width: 50%;
+  margin: 20px auto 15px;
+  text-align: center;
+}
+.postsdiv-flex {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0px;
+}
+.figure-posts {
+  margin: 15px;
+}
+.posts-figcaption {
+  width: 370px;
+  padding: 30px;
+  border: 1px solid #f8f8f8;
+}
+.posts-figcaption-title {
+  color: #555555;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.posts-figcaption-text {
+  color: #8c8c8c;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  margin-bottom: 27px;
+}
+.posts-link {
+  text-decoration: none;
+  color: #c7b299;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  position: relative;
+  padding-right: 10px;
+}
+.posts-link::after {
+  content: "";
+  background-image: url(img/arrow.svg);
+  background-repeat: no-repeat;
+  display: block;
+  width: 5px;
+  height: 8px;
+  position: absolute;
+  top: 3px;
+  right: -10px;
+}
+.posts-button {
+  fill: #d1d1d1;
+  border: none;
+  background-color: transparent;
+  margin: 5px;
+}
+.posts-button-div {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 80px;
+  align-items: center;
+}
+.posts-button:hover {
+  fill: #c7b299;
+}
+
+.logotype {
+  background-image: url(img/logotype-bg.jpg);
+  background-color: #333333;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+}
+.logotype-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 150px 0px;
+}
+.logotype-img {
+  display: block;
+  margin: 0px 45px;
+}
+.footer {
+}
+.footer-label {
+}
+.label {
+}
+.footer-article {
+}
+.footer-waxom {
+}
+.footer-logo {
+}
+.footer-waxom-text {
+}
+.footer-linkdiv {
+}
+.footer-link {
+}
+.footer-posts {
+}
+.footer-title-h4 {
+}
+.footer-posts-date {
+}
+.footer-posts-text {
+}
+.footer-twitter {
+}
+.footer-twitter-text {
+}
+.twitter-link {
+}
+.twitter-time {
+}
+.footer-img {
+}
+.footer-img-column {
+}
+.widget-img {
+}
+.footer-copyright {
+}
+.copyright {
 }
