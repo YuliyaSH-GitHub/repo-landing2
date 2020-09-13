@@ -1118,7 +1118,7 @@
 
   .partition-box {
     width: 100%;
-    margin: 5px;
+    margin: 15px 5px;
 
   }
 
@@ -1134,6 +1134,7 @@
   .realization-div {
     width: 100%;
     margin: 0 auto;
+    padding: 0px 10px;
 
   }
 
@@ -1182,5 +1183,87 @@
     font-size: 16px;
     font-weight: 300;
     text-align: center;
+  }
+
+  .our-paragraph {
+    width: 100%;
+    padding: 40px 10px 10px;
+  }
+
+  .our-title {
+    padding-top: 0px;
+  }
+
+  .our-text {
+    margin-bottom: 20px;
+  }
+
+  .our-filter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .our-figure {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .figure-projects {
+    margin: 15px 15px;
+  }
+
+  .presentation-video {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .presentation-div {
+    width: 90%;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+
+  }
+
+  .devices-imgdiv {
+    display: none;
+  }
+
+  .devices {
+    width: 100%;
+    padding: 40px 0 30px;
+  }
+
+  .devices-content {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .devices-item {
+    padding-left: 30px;
+  }
+
+  .devices-item:before {
+    position: absolute;
+    left: 0;
+    top: 5px;
+  }
+
+  .statistics-div {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  .statistics-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
   }
 }
