@@ -470,6 +470,12 @@
 
 .our-svg {
   margin: 0 10px;
+  fill: #fff;
+}
+
+.our-svg:hover {
+  fill: #c7b299;
+  transition-duration: 0.3s;
 }
 
 .overlay {
@@ -663,6 +669,7 @@
 
 .devices-list {
   list-style-type: none;
+  padding-bottom: 20px;
 }
 
 .devices-item {
@@ -767,6 +774,24 @@
   position: relative;
 }
 
+.posts-svg {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.posts-svg1 {
+  fill: #9299a9;
+}
+
+.posts-svg2 {
+  fill: #363636;
+}
+
+.posts-svg3 {
+  fill: #252525;
+}
+
 .posts-img {
   width: 100%;
   margin-bottom: -6px;
@@ -845,6 +870,21 @@
 .figure-div:hover .posts-figcaption {
   background-color: #362f2d;
   border: 1px solid #362f2d;
+  transition-duration: 0.3s;
+}
+
+.figure-div:hover .posts-svg2 {
+  fill: #c7b299;
+  transition-duration: 0.3s;
+}
+
+.figure-div:hover .posts-svg3 {
+  fill: #a48d72;
+  transition-duration: 0.3s;
+}
+
+.figure-div:hover .posts-svg {
+  z-index: 1;
   transition-duration: 0.3s;
 }
 
@@ -1099,6 +1139,14 @@
 
   .portfolio-menu {
     display: none;
+  }
+
+  /* .portfolio-menu:target {
+    display: block;
+  } */
+
+  .portfolio-burger-menu {
+    display: flex;
   }
 
   .portfolio-top {
