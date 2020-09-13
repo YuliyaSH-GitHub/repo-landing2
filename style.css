@@ -1151,10 +1151,10 @@
   .realization-image-left,
   .realization-image-center,
   .realization-image-right {
-    width: 70%;
-    height: 70%;
+    width: 100%;
+    height: 100%;
     position: static;
-    padding: 5px;
+    padding: 10px;
   }
 
   .multipurpose-flex {
@@ -1262,8 +1262,71 @@
   .statistics-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     padding: 30px 0;
+  }
+
+  .posts-text {
+    width: 100%;
+    margin: 20px auto 15px;
+    padding: 0 10px;
+  }
+
+  .postsdiv-flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px 0px;
+  }
+
+  .logotype-div {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 130px 0px;
+  }
+
+  .logotype-img {
+    margin: 45px;
+  }
+
+  .footer-article {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 70px 0;
+  }
+
+  .footer-column {
+    width: 100%;
+    padding: 20px 60px;
+    margin: 0px 20px;
+  }
+
+  .footer-widget {
+    width: 100%;
+    padding: 20px 60px;
+    margin: 0px 20px;
+  }
+
+  .copyright {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 45px 0;
+    justify-content: center;
+  }
+
+  .copyright-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .copyright-item {
+    align-self: center;
+    margin: 5px 0;
+  }
+
+  .copyright-item-br1,
+  .copyright-item-br2,
+  .copyright-item-br3 {
+    border-left: none;
+    border-right: none;
   }
 }
