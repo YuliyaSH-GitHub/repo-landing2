@@ -372,6 +372,7 @@
 
 .multipurpose-div {
   padding-bottom: 50px;
+  width: 50%;
 }
 
 .multipurpose-title {
@@ -509,6 +510,7 @@
 }
 
 .our-figcaption {
+  width: 370px;
   text-align: left;
   background-color: #fbfaf8;
   padding: 30px;
@@ -1131,10 +1133,10 @@
     margin: 0 auto;
   }
 
-  #burger:checked ~ .portfolio-menu {
+  #burger:checked~.portfolio-menu {
     flex-flow: wrap;
     opacity: 1;
-    left: 0;
+    left: 25%;
     transition: opacity 0.5s ease-in;
   }
 
@@ -1159,13 +1161,11 @@
   }
 
   .portfolio-menu {
-    width: 100%;
-    min-height: 100%;
-    border: 1px solid #000;
-    background-color: #998675;
-    /* display: none; */
+    width: 50%;
+    border: 1px solid #fff;
+    background-color: #736357;
     position: absolute;
-    top: 20%;
+    top: 12%;
     opacity: 0;
     z-index: 5;
   }
@@ -1179,17 +1179,20 @@
     justify-content: left;
   }
 
+  .portfolio-link-left {
+    margin-right: 0px;
+  }
+
+  .portfolio-link-right {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
   .portfolio-item {
     padding: 5px;
     text-align: center;
     width: 100%;
     border-bottom: 1px solid #fff;
-  }
-
-  .portfolio-item:nth-last-child(1),
-  .portfolio-item:nth-last-child(2) {
-    opacity: 0;
-
   }
 
   .portfolio-menu:target {
